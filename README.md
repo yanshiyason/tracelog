@@ -99,7 +99,7 @@ We used closures for several reasons; one is that the closure will not be evalua
     }
 ```
 
-Log methods take an optional tag that you can use to group related messages and also be used to determine whether this statement gets logged based on the current environment configuration.  It no tag is set, the file name of the calling method is used as the tag.
+Log methods take an optional tag that you can use to group related messages and also be used to determine whether this statement gets logged based on the current environment configuration.  If no tag is set, the file name of the calling method is used as the tag.
 
 ```swift
    logInfo("MyCustomTag") {
